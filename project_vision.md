@@ -1,6 +1,6 @@
 # Our vision statement
 
->*"Supporting undergraduate students professional growth by providing relevant work opportunities information."*
+>*"Helping future home buyers one cell at a time"*
 
 ## Contracted Grade
 
