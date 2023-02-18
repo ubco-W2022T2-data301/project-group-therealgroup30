@@ -16,7 +16,7 @@ Our dataset is on mortgage affortability in the US with data from 1999-2016. The
 
 - Will Garbutt: I like chips 
 - Angelina Dubrule: I am a third year computer science student and I think KitKats are super awesome!
-- Person 3: one sentence about you!
+- Alrick Vincent: I don't like tomatoes.
 
 ## Images
 
