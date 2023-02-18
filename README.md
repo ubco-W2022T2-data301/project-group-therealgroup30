@@ -6,7 +6,7 @@
 
 ## Describe your topic/interest in about 150-200 words
 
-{Add your stuff here}
+A common interest theme that appeared when discussing this dataset among team members is that it is relatively actual to our generation. Skyrocketing home prices since Covid as well as never-ending interest rate spikes have driven home affordability incredibly low. This mortage affordability dataset covers the US up to 2017 and contains relevant information as first-time home buyers in Canada are facing an unprecedented real estate market. Additionally, the large scale of this dataset offers a lot of research angles, leaving a lot of flexibility for our group to conduct a data science project. We are hoping to make good use of all the relevant tools we have and will be learning in class through this project. One common interest we all share is to determine whether metropolitanism has a noticeable effect on the mortgage affordability. Indeed each city in this dataset is given a population rank relative to the other cities, with a lower rank meaning a bigger population.
 
 ## Describe your dataset in about 150-200 words
 
@@ -15,7 +15,7 @@ Our dataset is on mortgage affortability in the US with data from 1999-2016. The
 ## Team Members
 
 - Will Garbutt: I like chips 
-- Person 2: one sentence about you!
+- Angelina Dubrule: one sentence about you!
 - Person 3: one sentence about you!
 
 ## Images
