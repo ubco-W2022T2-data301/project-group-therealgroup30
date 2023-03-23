@@ -43,6 +43,23 @@ def tostates(df):
         .reset_index()
     )
     return df2
+
+def meltdates_to_tierdiff(meltdates):
+    df = (  
+        meltdates
+        .groupby(['Date', 'tier'])
+        .agg({'Affordability': 'sum'})
+        .reset_index()
+    )
+    # Pivot the data so each tier becomes a separate column and make columns for the difference of two tiers
+    df2 = (
+        df.
+        pivot(index='Date', columns='tier', values='Affordability')
+        .assign(bottom_middle_diff = lambda x: x['Bottom Tier'] - x['Middle Tier'])
+        .assign(middle_upper_diff = lambda x: x['Middle Tier'] - x['Upper Tier'])
+    )
+
+    return df2
     
 
 def withAverageColumn(path):
