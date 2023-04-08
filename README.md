@@ -1,5 +1,4 @@
-# Group 30 - {Short snappy Title of your project}
-
+# Group 30 - Mortgage Affordabilty Analysis
 - Your title can change over time.
 
 ## Milestone 2
