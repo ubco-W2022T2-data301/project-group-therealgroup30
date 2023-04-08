@@ -60,6 +60,74 @@ def affCompState(df, index):
     df[f"Affordability Compared to {state}"] = ls2
     return df
 
+def getGeoLoc(df):
+    '''adds latitude and longitude columns'''
+    lat = []
+    long = []
+    lat.append(32.318230) #AL
+    long.append(-86.902298)
+    lat.append(32.788891) #AZ
+    long.append(-92.957779)
+    lat.append(36.778259) #CA
+    long.append(-119.417931)
+    lat.append(39.550053) #CO
+    long.append(-105.782066)
+    lat.append(41.500751) #CT
+    long.append(-72.757378)
+    lat.append(38.89037) #DC
+    long.append(-77.03196)
+    lat.append(28.518795) #FL
+    long.append(-81.44426)
+    lat.append(32.648323) #GA
+    long.append(-83.444534)
+    lat.append(40.113937) #IL
+    long.append(-89.15877)
+    lat.append(37.527233) #KY
+    long.append(-85.28762)
+    lat.append(42.15603) #MA
+    long.append(-71.5659)
+    lat.append(38.952724) #MD
+    long.append(-76.70125)
+    lat.append(44.862617) #MI
+    long.append(-85.73514)
+    lat.append(46.34936) #MN
+    long.append(-94.19837)
+    lat.append(38.367966) #MO
+    long.append(-92.47788)
+    lat.append(35.539345) #NC
+    long.append(-79.18542)
+    lat.append(39.3564) #NV
+    long.append(-116.655396)
+    lat.append(42.937084) #NY
+    long.append(-75.6107)
+    lat.append(40.41305) #OH
+    long.append(-82.71121)
+    lat.append(35.459164) #OK
+    long.append(-97.37394)
+    lat.append(43.938812) #OR
+    long.append(-120.55859)
+    lat.append(40.809677) #PA
+    long.append(-77.77727)
+    lat.append(41.667397) #RI
+    long.append(-71.58632)
+    lat.append(35.860119) #TN
+    long.append(-86.660156)
+    lat.append(31.462734) #TX
+    long.append(-99.33304)
+    lat.append(39.833332) #USA
+    long.append(-98.583336)
+    lat.append(39.323742) #UT
+    long.append(-111.67824)
+    lat.append(37.51282) #VA
+    long.append(-78.697945)
+    lat.append(47.411293) #WA
+    long.append(-120.55627)
+    lat.append(44.64179) #WI
+    long.append(-89.73674)
+    df["Latitude"] = lat
+    df["Longitude"] = long
+    return df
+
 def affCompYear(df, index):
     '''return df with added column comparing the affordability for each year to the affodability for a specified year'''
     year = str(df['Year'][index])
