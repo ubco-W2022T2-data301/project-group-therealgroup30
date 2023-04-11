@@ -18,7 +18,7 @@ Our dataset is on mortgage affortability in the US with data from 1999-2016. The
 
 ## Images
 
-<img src ="images/dashboardangelina.png" width="1000px">
+<img src ="images/dashboardangelina.png" width="500px">
 
 ## References
 
