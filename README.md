@@ -1,5 +1,4 @@
 # Group 30 - Mortgage Affordabilty Analysis
-- Your title can change over time.
 
 ## Milestone 2
 
@@ -18,8 +17,6 @@ Our dataset is on mortgage affortability in the US with data from 1999-2016. The
 - Alrick Vincent: I don't like tomatoes.
 
 ## Images
-
-{You should use this area to add a screenshot of an interesting plot, or of your dashboard}
 
 <img src ="images/test.png" width="100px">
 
