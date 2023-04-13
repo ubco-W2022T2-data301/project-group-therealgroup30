@@ -18,6 +18,10 @@ During our exploratory data analysis, our aim was to gain a comprehensive unders
 
 ![Seaborn EDA visualization](/images/alrick/EDA_tier_affordability.png)
 
+Throughout our project, each group member explored whether city population effected the affordability of the mortgages within the city in question. Each of our seperate findings yielded the same conclusion - there is no correlation between how populated an area is and the affordability mortgages in said area by the information within our dataset. Each of us made visualizations depicting the lack or correlation, an example of which can be seen below.
+
+![Affordability Vs. Population](/images/PopVAff.png)
+
 ## Question 1
 
 Given that our dataset contains regional data organized by states, we found it compelling to aggregate each region by its corresponding state and compute the average mortgage affordability ratio for comparison. This led us to the following research question: **What are the variations in affordability ratios across different states, and what factors could account for these disparities?**. To investigate this question, we will delve further into choropleth visualizations, enabling us to effectively illustrate the distribution of housing affordabililty ratios in the United States over time.
@@ -40,12 +44,15 @@ The affordability ratio varies widely across states, and these differences can b
 
 By finding the average affordability for each year across the entire dataset, we were able to look at the data from a more holistic perspective. Instead of analyzing subsections of the data, by looking at the collective trend of all of the data as a whole, we were able to analyze the overall increase or decrease in affordability over time.
 
-<img src ="images/test.png" width="100px">
+![Affordability Over Time Compared to 1999](/images/CompAff1999.png)
+
 To begin our analysis, the average affordability for each year was graphed in a bar graph to create the first visualization of any trends that might exist within our timeline. By this visualization, it could be easily seen that there was a lot of variance within the affordability timeline. There was an apparent global maximum, or point of least affordability, in the year 2006. There was an apparent global minimum, or point of most affordability, in the year 2012. Despite the many trends we could see within this visualization, it was still hard to determine the overall trend of the data. This is where the next graph shined in comparison.
 
 
-<img src ="images/test.png" width="100px">
+![Affordability Over Time](/images/AffVTime.png)
+
 This line plot was able to display the same trends as the previous histogram with ease, but in addition it has a much cleaner look when a best fit line is added. The best fit line included in this lineplot shows us the overall liner trend of the average affordability across the entire 17 year period. Using this plot, it is easy to see that the overall trend of the affordability over time is to become increasingly more affordable, at least within our 17 year period.
+
 
 Going into this project, one might have assumed that mortgages overall would be becoming less affordable overtime, but through our analysis we were able to determine the opposite. From a personal perspective, this data may provide home buyers with more hope for the market. From a global point of view, it would be interesting to compare these results to the overall affordability changes in other countries over the same time period. It would also be interesting to see how the overall affordability trends found in our data compare to more recent years considering the economic effect of the COVID-19 pandemic, which happened in later years than our dataset includes.
 
