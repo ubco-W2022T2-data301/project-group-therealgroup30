@@ -49,15 +49,27 @@ This line plot was able to display the same trends as the previous histogram wit
 
 Going into this project, one might have assumed that mortgages overall would be becoming less affordable overtime, but through our analysis we were able to determine the opposite. From a personal perspective, this data may provide home buyers with more hope for the market. From a global point of view, it would be interesting to compare these results to the overall affordability changes in other countries over the same time period. It would also be interesting to see how the overall affordability trends found in our data compare to more recent years considering the economic effect of the COVID-19 pandemic, which happened in later years than our dataset includes.
 
-## Q3:
+## Q3: How does mortgage afforability change with time for differnt tiers? Do all tiers follow the same trend or do they have their own? If they do, (as one tier goes up/down so does the other) is it a constant relationship (change at same rate) or not (e.i. as one increases/decreases does the other increase/decrease more/less rapidly)
+
+![Mortgage Affordability in the U.S over time](images/Will/tiered_timeplot.png)
+
+This visualization really shows the trend of mortgage affordability over time. This plot makes it easy to visualize the first two parts of the question and answer them. As for the first part, although there are many factors to consider, many of which is not seen in the data, the plot does indicate how some factors influence mortgage affortability. The most obvious factor here which is clear to see is the 2008 housing market crash which correlates to the maximums in the plot for all tiers. Also we see a big difference in the affordability index between the tiers, indicating homes are typaclly less affordable for lower income residences. As for the second part of the question, we can clearly see the same shape/trend across all tiers.
+
+Now lets dive in to the last part of the quetion and see if we have a constant relationship or not between the different tiers.
+
+| Upper Class vs. Middle class | Middle Class vs. lower CLass |
+|:----------------------------:|:----------------------------:|
+![Difference in affordabilty between upper and middle tiers](images/Will/midup_diff.png) | ![Difference in affordabilty between middle and bottom tiers](images/Will/botmid_diff.png)|
+
+On the two plots we can see a general upward trend. Although small, this implies that as homes become less affordable for a certain tier, they become increasinly less affordable for lower tier americans. We also see a bigger difference, or steeper slope when the bottom tier is compared. These observations can point to several factors. For instance one reason that lower class americans are affected the most, and probably for worse, could be how minimum wages are not typacally livable so majority of income or a less perferable amount is spent on housing. 
 
 ## Analysis Links
 
 If you are further interested in data science and would like to check out our in-depth analysis and code, you can find below the link to our three separate analyses:
 
-Angelina: [](/analysis/analysisAngelina.ipynb)
-Alrick: [](/analysis/analysisAlrick.ipynb)
-Will: [](/analysis/analysisWill.ipynb)
+[Angelina](/analysis/analysisAngelina.ipynb)
+[Alrick](/analysis/analysisAlrick.ipynb)
+[Will](/analysis/analysisWill.ipynb)
 
 ## References
 
