@@ -78,9 +78,9 @@ Through the exploration of this dataset our team was able to discover important 
 
 If you are further interested in data science and would like to check out our in-depth analysis and code, you can find below the link to our three separate analyses:
 
-[Angelina](/analysis/analysisAngelina.ipynb)
-[Alrick](/analysis/analysisAlrick.ipynb)
-[Will](/analysis/analysisWill.ipynb)
+- [Angelina](/analysis/analysisAngelina.ipynb)
+- [Alrick](/analysis/analysisAlrick.ipynb)
+- [Will](/analysis/analysisWill.ipynb)
 
 ## References
 
