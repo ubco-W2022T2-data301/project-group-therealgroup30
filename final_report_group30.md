@@ -36,8 +36,18 @@ We can see that affordability ratios have experienced fluctuations over time, wi
 
 The affordability ratio varies widely across states, and these differences can be attributed to a variety of factors not directly evident in the graphs. Such factors include regional economic conditions, local housing markets, and state-level policies. As established in our first research question, population rank does not significantly impact the affordability ratio, even at the state level. By examining the visualizations, we can discern common trends and patterns among regions, characterized by distinct spikes and drops (where spikes are unfavorable and drops are favorable) over the years.
 
-## Q2:
+## Q2: Has the affordability of a mortgage changed over the 17 year period that the data was collected? If so, did affordability increase or decrease?
 
+By finding the average affordability for each year across the entire dataset, we were able to look at the data from a more holistic perspective. Instead of analyzing subsections of the data, by looking at the collective trend of all of the data as a whole, we were able to analyze the overall increase or decrease in affordability over time.
+
+<img src ="images/test.png" width="100px">
+To begin our analysis, the average affordability for each year was graphed in a bar graph to create the first visualization of any trends that might exist within our timeline. By this visualization, it could be easily seen that there was a lot of variance within the affordability timeline. There was an apparent global maximum, or point of least affordability, in the year 2006. There was an apparent global minimum, or point of most affordability, in the year 2012. Despite the many trends we could see within this visualization, it was still hard to determine the overall trend of the data. This is where the next graph shined in comparison.
+
+
+<img src ="images/test.png" width="100px">
+This line plot was able to display the same trends as the previous histogram with ease, but in addition it has a much cleaner look when a best fit line is added. The best fit line included in this lineplot shows us the overall liner trend of the average affordability across the entire 17 year period. Using this plot, it is easy to see that the overall trend of the affordability over time is to become increasingly more affordable, at least within our 17 year period.
+
+Going into this project, one might have assumed that mortgages overall would be becoming less affordable overtime, but through our analysis we were able to determine the opposite. From a personal perspective, this data may provide home buyers with more hope for the market. From a global point of view, it would be interesting to compare these results to the overall affordability changes in other countries over the same time period. It would also be interesting to see how the overall affordability trends found in our data compare to more recent years considering the economic effect of the COVID-19 pandemic, which happened in later years than our dataset includes.
 
 ## Q3:
 
